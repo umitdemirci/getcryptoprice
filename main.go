@@ -10,8 +10,12 @@ import (
 	"strings"
 )
 
-const BINANCE_PRICE_URL = "https://api.binance.com/api/v3/ticker/price?symbol=%s%s"
-const CURRENCY = "USDT"
+const (
+	// BINANCE_PRICE_URL TODO: support other vendors
+	BINANCE_PRICE_URL = "https://api.binance.com/api/v3/ticker/price?symbol=%s%s"
+	// CURRENCY TODO: support other currencies
+	CURRENCY = "USDT"
+)
 
 type Crypto struct {
 	Price float64 `json:"price,string"`
