@@ -15,7 +15,7 @@ getcryptoprice BTC
 # BTC price is 19137.36 USDT
 ```
 
-Changing the name of the executable file for easy use: 
+Change the name of the executable file for easy use: 
 ```bash
 mv getcryptoprice price
 ```
